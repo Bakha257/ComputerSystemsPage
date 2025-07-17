@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="jscodes/index.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/484580e3fc.js" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,100;1,200&display=swap" rel="stylesheet">
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,100;1,200&display=swap');
+    </style>
+    
+    <title>Events</title>
+    <link rel="icon" type="image/png" href="assets\images\b0cb3266-ee8e-4251-9d4a-e31c69ec96cd.png" sizes="196x196"/>
+</head>
+<body>
+    <div class="page">
+        <header class="header1"  id="myheader">
+            <div class="container">
+                <div class="header__inner">
+                    <a href="index.html">
+                    <img class="nav__image" src="assets\images\logo_turiba.png" width="150px" >
+                    </a>
+                    <nav class="nav">
+                        <a class="nav__link" href="https://www.turiba.lv/en" target="_blank">About Turiba</a>
+                        <a class="nav__link" href="StudyProgram.html">Study Program</a>
+                        <a class="nav__link" href="events.html">Events</a>
+                        <a class="nav__link" href="Researches.html">Researches</a>
+                        <a class="nav__link" href="Projects.html">Projects</a>
+                        <a class="nav__link" href="SocMe.html">Social Media</a>
+                        <a class="nav__link" href="Contacts.html">Contact</a>
+                    </nav>
+                    <button class="nav-toggle" id="nav-toggle" type="button">
+                        <span class="nav-toggle__item"></span>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <div class="section" style="margin-top: 75px;">
+            <div class="calendar-header">
+                <h1>Calendar</h1>
+                <h2 id="currentDate"></h2>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="7"></th>
+                    </tr>
+                    <tr>
+                        <th class="previous-month">&#8249;</th>
+                        <th colspan="5" id="currentMonth"></th>
+                        <th class="next-month">&#8250;</th>
+                    </tr>
+                    <tr>
+                        <th>Sn</th>
+                        <th>Mn</th>
+                        <th>Tu</th>
+                        <th>Wn</th>
+                        <th>Th</th>
+                        <th>Fr</th>
+                        <th>St</th>
+                    </tr>
+                </thead>
+                <tbody id="calendarBody">
+                    <!-- The Calendar wil be generated in JS -->
+                </tbody>
+            </table>
+            <div class="calendar-body">
+                <div class="day">
+                    <div class="day-header">
+                        <div class="day-number">15</div>
+                    </div>
+                    <div class="events">
+                        <div class="event">
+                            <div class="event-time">10:00 AM - 12:00 PM</div>
+                            <div class="event-title">Meeting</div>
+                            <div class="event-location">Conference Room</div>
+                        </div>
+                        <div class="event">
+                            <div class="event-time">2:00 PM - 4:00 PM</div>
+                            <div class="event-title">Presentation</div>
+                            <div class="event-location">Auditorium</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="day">
+                    <div class="day-header">
+                        <div class="day-number">16</div>
+                    </div>
+                    <div class="events">
+                        <div class="event">
+                            <div class="event-time">9:00 AM - 11:00 AM</div>
+                            <div class="event-title">Workshop</div>
+                            <div class="event-location">Training Room</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<footer class="footer">
+    <div class="footer__block">
+        <div class="footer__inner">
+            <div class="footer__cont">
+                <div class="footer__item__text">
+                    <div class="footer__title">Contact US</div>
+                    <div class="footer_text">Phone: +371 28610710</div>
+                    <div class="footer_text">E-mail: etm@turiba.lv</div>
+                </div>
+                <div class="footer__item__text">
+                    <div class="footer__title">Latest Posts</div>
+                        <li>
+                            <a class="footer__text" href="https://youtube.com/@informationtechnologyturib1421" target="_blank">
+                                YouTUbe
+                            </a>
+                        </li>
+                        <li>
+                            <a class="footer__text" href="https://instagram.com/it_field_latvia?igshid=NTc4MTIwNjQ2YQ==" target="_blank">
+                                Instagram
+                            </a>
+                        </li>
+                        <li>
+                            <a class="footer__text" href="https://www.facebook.com/Biznesa.augstskola.Turiba" target="_blank">
+                                Facebook
+                            </a>
+                        </li> 
+                </div>
+                <div class="footer__item__text">
+                    <div class="footer__title">Latest Researches</div>
+                    <li>
+                    <a class="footer__text" href="#" target="_blank">
+                        Functional analysis...
+                    </a>
+                    </li>
+                    <li>
+                    <a class="footer__text" href="#" target="_blank">
+                        The Use of Terrestrial...
+                    </a>
+                    </li>
+                    <li>
+                    <a class="footer__text" href="#" target="_blank">
+                        Application and Advances in Radiographic...
+                    </a>   
+                    </li>
+                </div>
+                <div class="footer__item">
+                    <div class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2178.2230603370117!2d24.080276299999998!3d56.9107056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46eed052f05d79a1%3A0xd98e54bb394c3daa!2z0KPQvdC40LLQtdGA0YHQuNGC0LXRgiDQotGD0YDQuNCx0LA!5e0!3m2!1sru!2slv!4v1683812300578!5m2!1sru!2slv" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<button class="back-to-top" onclick="scrollToTop()"><i class="fas fa-chevron-up"></i></button>
+<script>
+    // Получение текущей даты
+    var currentDate = new Date();
+    var currentDay = currentDate.getDate();
+    var currentMonth = currentDate.getMonth();
+    var currentYear = currentDate.getFullYear();
+
+    // Генерация календаря
+    generateCalendar(currentYear, currentMonth);
+
+    // Обработчики для кнопок предыдущего и следующего месяца
+    var previousMonthBtn = document.querySelector('.previous-month');
+    var nextMonthBtn = document.querySelector('.next-month');
+
+    previousMonthBtn.addEventListener('click', function() {
+        currentMonth--;
+        if (currentMonth < 0) {
+            currentMonth = 11;
+            currentYear--;
+        }
+        generateCalendar(currentYear, currentMonth);
+    });
+
+    nextMonthBtn.addEventListener('click', function() {
+        currentMonth++;
+        if (currentMonth > 11) {
+            currentMonth = 0;
+            currentYear++;
+        }
+        generateCalendar(currentYear, currentMonth);
+    });
+
+    // Функция для генерации календаря
+    function generateCalendar(year, month) {
+        var calendarBody = document.getElementById("calendarBody");
+        var calendarHeader = document.getElementById("currentDate");
+        var currentMonthElement = document.getElementById("currentMonth");
+
+        // Очистка предыдущего календаря
+        calendarBody.innerHTML = "";
+
+        // Установка текущей даты и месяца в заголовке
+        calendarHeader.textContent = getCurrentDateText();
+        currentMonthElement.textContent = getMonthName(month) + " " + year;
+
+        // Получение первого дня месяца
+        var firstDay = new Date(year, month, 1);
+        var startingDay = firstDay.getDay();
+
+        // Получение количества дней в текущем месяце
+        var monthLength = new Date(year, month + 1, 0).getDate();
+
+        // Генерация календаря
+        var date = 1;
+        for (var row = 0; row < 6; row++) {
+            var newRow = document.createElement("tr");
+
+            for (var col = 0; col < 7; col++) {
+                if (row === 0 && col < startingDay) {
+                    var newCell = document.createElement("td");
+                    newCell.classList.add("previous-month");
+                    newRow.appendChild(newCell);
+                }
+                else if (date > monthLength) {
+                    var newCell = document.createElement("td");
+                    newCell.classList.add("next-month");
+                    newRow.appendChild(newCell);
+                }
+                else {
+                    var newCell = document.createElement("td");
+                    newCell.textContent = date;
+
+                    if (year === currentYear && month === currentMonth && date === currentDay) {
+                        newCell.classList.add("current-day");
+                    }
+
+                    newRow.appendChild(newCell);
+                    date++;
+                }
+            }
+
+            calendarBody.appendChild(newRow);
+        }
+    }
+
+    // Функция для получения названия месяца
+    function getMonthName(month) {
+        var monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+        return monthNames[month];
+    }
+
+    // Функция для получения текущей даты в формате "День Месяц Год"
+    function getCurrentDateText() {
+        var currentDate = new Date();
+        var currentDay = currentDate.getDate();
+        var currentMonth = currentDate.getMonth();
+        var currentYear = currentDate.getFullYear();
+
+        return currentDay + " " + getMonthName(currentMonth) + " " + currentYear;
+    }
+</script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+  $(document).ready(function() {
+    $("#nav-toggle").on("click", function(event) {
+      event.preventDefault();
+      $(".nav").toggle();
+    });
+  });
+</script>
+</body>
+</html>
